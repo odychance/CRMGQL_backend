@@ -1,0 +1,23 @@
+{
+  "name": "crmgraphqlcourse",
+  "version": "1.0.0",
+  "description": "curso de graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Odlanier Chance",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-context": "^1.0.20",
+    "apollo-server": "^3.9.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
